@@ -1,0 +1,938 @@
+:root {
+    --learnmore_bg_mobile: url('https://rocketleague.media.zestyio.com/SunsetDivider_Mobile.jpg?width=640&optimize=high') no-repeat center center; 
+    --learnmore_bg_tablet: #000 url('https://rocketleague.media.zestyio.com/SunsetDivider_HalfDesktop.jpg?width=1024&optimize=high') no-repeat center center;
+    --learnmore_bg_desktop: #000 url('https://rocketleague.media.zestyio.com/SunsetDivider.jpg?width=1920&optimize=high') no-repeat center center;
+    --learnmore_copy: #fff;
+
+    --section_1_m_bg_wrap: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 25%);
+    --section_1_m_bg_container: url('https://rocketleague.media.zestyio.com/SunriseFlyout_Mobile.png') no-repeat center center;
+    --section_1_d_bg_wrap: linear-gradient(to right, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 95%);
+    --section_1_border: #00d1de;
+    --section_1_title: #00d1de;
+    --section_1_copy: #fff;
+
+    --section_2_m_bg_wrap: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 25%);
+    --section_2_m_bg_container: url('https://rocketleague.media.zestyio.com/NightFlyout_Mobile.png') no-repeat center center;
+    --section_2_d_bg_wrap: linear-gradient(to left, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 95%);
+    --section_2_border: #00d1de;
+    --section_2_title: #00d1de;
+    --section_2_copy: #FFF;
+
+    --section_3_m_bg_wrap: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 25%);
+    --section_3_m_bg_container: url('https://rocketleague.media.zestyio.com/SunriseFlyout_Mobile.png') no-repeat center center;
+    --section_3_d_bg_wrap: linear-gradient(to right, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 95%);
+    --section_3_border: #00d1de;
+    --section_3_title: #00d1de;
+    --section_3_copy: #fff;
+
+    --section_4_m_bg_wrap: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 25%);
+    --section_4_m_bg_container: url('https://rocketleague.media.zestyio.com/NightFlyout_Mobile.png') no-repeat center center;
+    --section_4_d_bg_wrap: linear-gradient(to left, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 95%);
+    --section_4_border: #00d1de;
+    --section_4_title: #00d1de;
+    --section_4_copy: #FFF;
+}
+@keyframes changeBg {
+   0%,100%  {background-size:100% 100%;}
+   50% {background-size:195% 195%;}
+}
+.f2p-home {
+    background: #000;
+}
+.f2p-home h2 {
+    font-family: BourgeoisUltra, "Arial Regular", Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 7.5vw;
+    line-height: 1;
+}
+.f2p-home h2.de {
+    font-size: 6.5vw;
+}
+.f2p-home h2.es-es {
+    font-size: 6.5vw;
+}
+.f2p-home h2.es-mx {
+    font-size: 6.5vw;
+}
+.f2p-home h2.fr {
+    font-size: 7vw;
+}
+.f2p-home h2.it {
+    font-size: 6.5vw;
+}
+.f2p-home h2.pt-br {
+    font-size: 6.5vw;
+}
+.f2p-home p {
+    font-family: "Bourgeois W00 Medium", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 4.25vw;
+    line-height: 1.35;
+}
+.f2p-home .news-tile {
+    background: #000;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8.5%;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+}
+.f2p-home .news-tile .news-tile-inner .label-wrap {
+    border-top: 1vw solid #0db2ff;
+    padding: 3% 0 0.25%;
+}
+.f2p-home .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3 {
+    font-size: 4.25vw;
+    line-height: 1.15;
+    color: #fff;
+}
+.f2p-home .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3.single {
+    line-height: 2.3;
+}
+.f2p-home .news-tile.grey .news-tile-inner .label-wrap {
+    border-top: 1vw solid #cbcbcb;
+}
+.f2p-home .keyart.mobile {
+    padding-top: 122.5%;
+    display: block;
+    animation: changeBg 750s infinite;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container .featured-tiles-wrap .news-tile.blue .news-tile-inner .label-wrap {
+    border-top: 1vw solid #0db2ff;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container .featured-tiles-wrap .news-tile.orange .news-tile-inner .label-wrap {
+    border-top: 1vw solid #ff8a0c;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap {
+    padding-left: 0;
+    padding-right: 0;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .news-slider .slick-slide {
+    margin: 0 0.25%;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .news-slider .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3 {
+    font-size: 3.25vw;
+    line-height: 1.15;
+    color: #fff;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .buttons-wrap .learn-button-wrap a .learn-button {
+    background: url('https://rocketleague.media.zestyio.com/Button.png') no-repeat center center;
+    background-size: contain;
+    margin: 8% 0 24%;
+}
+.f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .buttons-wrap .learn-button-wrap a .learn-button .learn-button-inner span {
+    font-family: BourgeoisUltra, "Arial Regular", Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height: 2.95;
+    position: relative;
+    bottom: 2.5px;
+}
+.f2p-home .parallax-wrapper {
+    display: none;
+}
+.f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.f2p-home .learn-more {
+    background: var(--learnmore_bg_mobile);
+    background-size: 100% 100%;
+    color: var(--learnmore_copy);
+    padding: 17.75% 0;
+}
+.f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy h2 {
+    margin-bottom: 3.5%;
+    color: var(--learnmore_copy);
+}
+.f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy p {
+    margin-bottom: 5%;
+}
+.f2p-home .cross-platform {
+    background: #000;
+    transition: background-size 12.5s ease-in-out;
+}
+.f2p-home .cross-platform .cross-platform-inner {
+    padding-bottom: 50vw;
+}
+.f2p-home .cross-platform .cross-platform-inner img.square {
+    display: block;
+}
+.f2p-home .cross-platform .cross-platform-inner img.wide {
+    display: none;
+}
+.f2p-home .cross-platform .cross-platform-inner .grid-wrap {
+    background: var(--section_1_m_bg_wrap);
+    position: absolute;
+    margin-top: -22vw;
+}
+.f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container {
+    background: var(--section_1_m_bg_container); 
+    background-size: 100% 100%;
+    border-top: 1vw;
+    border-top-style: solid;
+    border-top-color: var(--section_1_border);
+    padding: 10.5% 0;
+    min-height: 72vw;
+}
+.f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy {
+    color: var(--section_1_copy);
+}
+.f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+    margin-bottom: 5%;
+    color: var(--section_1_title);
+    //-webkit-text-fill-color: var(--section_1_title);
+    //-webkit-text-stroke-width: 2px;
+    //-webkit-text-stroke-color: #000;
+}
+.f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .learn-button {
+    background: url('https://rocketleague.media.zestyio.com/Button.png') no-repeat center center;
+    background-size: contain;
+    margin: 12% 0 0;
+}
+.f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .learn-button .learn-button-inner span {
+    font-family: BourgeoisUltra, "Arial Regular", Arial, sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height: 2.95;
+    position: relative;
+    bottom: 2.5px;
+}
+.f2p-home .events {
+    background: #000;
+    transition: background-size 12.5s ease-in-out;
+}
+.f2p-home .events .events-inner {
+    padding-bottom: 50vw;
+}
+.f2p-home .events .events-inner img.square {
+    display: block;
+}
+.f2p-home .events .events-inner img.wide {
+    display: none;
+}
+.f2p-home .events .events-inner .grid-wrap {
+    background: var(--section_2_m_bg_wrap);
+    position: absolute;
+    margin-top: -22vw;
+}
+.f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container {
+    background: var(--section_2_m_bg_container);
+    background-size: 100% 100%;
+    border-top: 1vw;
+    border-top-style: solid;
+    border-top-color: var(--section_2_border);
+    padding: 10.5% 0;
+    min-height: 72vw;
+}
+.f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy {
+    color: var(--section_2_copy);
+}
+.f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+    margin-bottom: 5%;
+    color: var(--section_2_title);
+    //-webkit-text-fill-color: var(--section_2_title);
+    //-webkit-text-stroke-width: 0.75px;
+    //-webkit-text-stroke-color: #000;
+}
+.f2p-home .shop-blueprints {
+    background: #000;
+    transition: background-size 12.5s ease-in-out;
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner {
+    padding-bottom: 50vw;
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner img.square {
+    display: block;
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner img.wide {
+    display: none;
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap {
+    background: var(--section_3_m_bg_wrap);
+    position: absolute;
+    margin-top: -22vw;
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container {
+    background: var(--section_3_m_bg_container);
+    background-size: 100% 100%;
+    border-top: 1vw;
+    border-top-style: solid;
+    border-top-color: var(--section_3_border);
+    padding: 10.5% 0;
+    min-height: 72vw;
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy {
+    color: var(--section_3_copy);
+}
+.f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+    margin-bottom: 5%;
+    color: var(--section_3_title);
+    //-webkit-text-fill-color: var(--section_3_title);
+    //-webkit-text-stroke-width: 0.75px;
+    //-webkit-text-stroke-color: #000;
+}
+.f2p-home .music {
+    background: #000;
+    transition: background-size 12.5s ease-in-out;
+}
+.f2p-home .music .music-inner {
+    padding-bottom: 50vw;
+}
+.f2p-home .music .music-inner img.square {
+    display: block;
+}
+.f2p-home .music .music-inner img.wide {
+    display: none;
+}
+.f2p-home .music .music-inner .grid-wrap {
+    background: var(--section_4_m_bg_wrap);
+    position: absolute;
+    margin-top: -22vw;
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container {
+    background: var(--section_4_m_bg_container);
+    background-size: 100% 100%;
+    border-top: 1vw;
+    border-top-style: solid;
+    border-top-color: var(--section_4_border);
+    padding: 10.5% 0;
+    min-height: 72vw;
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy {
+    color: var(--section_4_copy);
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+    margin-bottom: 5%;
+    color: var(--section_4_title);
+    //-webkit-text-fill-color: var(--section_4_title);
+    //-webkit-text-stroke-width: 0.75px;
+    //-webkit-text-stroke-color: #000;
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button {
+    background: url('https://rocketleague.media.zestyio.com/Button.png') no-repeat center center;
+    background-size: contain;
+    margin: 12% 0 0;
+    cursor: pointer;
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell .music-button img {
+    height: 14vw;
+    width: 14vw;
+    position: absolute;
+    margin-left: -25vw;
+    margin-top: 0vw;
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner {
+    font-family: BourgeoisUltra, "Arial Regular", Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height: 2.95;
+    position: relative;
+    bottom: 2.5px;
+}
+.f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner span {
+    transform: none;
+}
+@media screen and (min-width: 640px) {
+    .f2p-home h2 {
+        font-size: 4.75vw;
+        line-height: 1;
+    }
+    .f2p-home h2.de {
+        font-size: 4.75vw;
+    }
+    .f2p-home h2.es-es {
+        font-size: 4.75vw;
+    }
+    .f2p-home h2.es-mx {
+        font-size: 4.75vw;
+    }
+    .f2p-home h2.fr {
+        font-size: 4.75vw;
+    }
+    .f2p-home h2.it {
+        font-size: 4.75vw;
+    }
+    .f2p-home h2.pt-br {
+        font-size: 4.75vw;
+    }
+    .f2p-home p {
+        font-size: 2.5vw;
+        line-height: 1.35;
+    }
+    .f2p-home .news-tile {
+        margin-bottom: 8.5%;
+    }
+    .f2p-home .news-tile:first-child {
+        margin-right: 2.5vw;
+    }
+    .f2p-home .news-tile:last-child {
+        margin-left: 2.5vw;
+    }
+    .f2p-home .news-tile .news-tile-inner .label-wrap {
+        border-top: 0.35vw solid #0db2ff;
+        padding: 3% 0 0.25%;
+    }
+    .f2p-home .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3 {
+        font-size: 2vw;
+        line-height: 1.15;
+    }
+    .f2p-home .news-tile.grey .news-tile-inner .label-wrap {
+        border-top: 0.35vw solid #cbcbcb;
+    }
+    .f2p-home .keyart.mobile {
+        padding-top: 77.25%;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container .featured-tiles-wrap .news-tile.blue .news-tile-inner .label-wrap {
+        border-top: 0.35vw solid #0db2ff;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container .featured-tiles-wrap .news-tile.orange .news-tile-inner .label-wrap {
+        border-top: 0.35vw solid #ff8a0c;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .news-slider .slick-slide {
+        margin: 0 0.5%;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .news-slider .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3 {
+        font-size: 1.75vw;
+        line-height: 1.15;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .buttons-wrap .learn-button-wrap a .learn-button {
+        margin: 8% 0 24%;
+    }
+    .f2p-home .keyart.mobile .keyart-inner .grid-container.news-slider-wrap .buttons-wrap .learn-button-wrap a .learn-button .learn-button-inner span {
+        font-size: 2.75vw;
+        line-height: 2.25;
+    }
+    .f2p-home .learn-more {
+        background: var(--learnmore_bg_tablet);
+        background-size: 100% 100%;
+        padding: 12% 0;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 1.75%;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy p {
+        margin-bottom: 2.5%;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy p:last-child {
+        margin-bottom: 0;
+    }
+    .f2p-home .cross-platform .cross-platform-inner {
+        padding-bottom: 27.25vw;
+    }
+    .f2p-home .cross-platform .cross-platform-inner img.square {
+        display: block;
+    }
+    .f2p-home .cross-platform .cross-platform-inner img.wide {
+        display: none;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap {
+        margin-top: -11vw;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container {
+        border-top-width: 0.5vw;
+        padding: 6.75% 0;
+        min-height: 38.5vw;
+        max-width: 100%;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .learn-button {
+        margin: 12% 0 0;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .learn-button .learn-button-inner span {
+        font-size: 2.75vw;
+    }
+    .f2p-home .events .events-inner {
+        padding-bottom: 27.25vw;
+    }
+    .f2p-home .events .events-inner img.square {
+        display: block;
+    }
+    .f2p-home .events .events-inner img.wide {
+        display: none;
+    }
+    .f2p-home .events .events-inner .grid-wrap {
+        margin-top: -11vw;
+    }
+    .f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container {
+        border-top-width: 0.5vw;
+        padding: 6.75% 0;
+        min-height: 38.5vw;
+        max-width: 100%;
+    }
+    .f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner {
+        padding-bottom: 27.25vw;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner img.square {
+        display: block;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner img.wide {
+        display: none;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap {
+        margin-top: -11vw;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container {
+        border-top-width: 0.5vw;
+        padding: 6.75% 0;
+        min-height: 38.5vw;
+        max-width: 100%;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .music .music-inner {
+        padding-bottom: 27.25vw;
+    }
+    .f2p-home .music .music-inner img.square {
+        display: block;
+    }
+    .f2p-home .music .music-inner img.wide {
+        display: none;
+    }
+    .f2p-home .music .music-inner .grid-wrap {
+        margin-top: -11vw;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container {
+        border-top-width: 0.5vw;
+        padding: 6.75% 0;
+        min-height: 38.5vw;
+        max-width: 100%;
+        width: 100vw;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy {
+        color: #fff;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button {
+        margin: 12% 0 0;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button img {
+        height: 8vw;
+        width: 8vw;
+        margin-left: -14vw;
+        margin-top: 3vw;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner span {
+        font-size: 2.75vw;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .f2p-home h2 {
+        font-size: 2.85vw;
+        line-height: 1;
+    }
+    .f2p-home h2.de {
+        font-size: 2.25vw;
+    }
+    .f2p-home h2.es-es {
+        font-size: 2.85vw;
+    }
+    .f2p-home h2.es-mx {
+        font-size: 2.85vw;
+    }
+    .f2p-home h2.fr {
+        font-size: 2.85vw;
+    }
+    .f2p-home h2.it {
+        font-size: 2.85vw;
+    }
+    .f2p-home h2.pt-br {
+        font-size: 2.85vw;
+    }
+    .f2p-home p {
+        font-size: 1.25vw;
+        line-height: 1.35;
+    }
+    .f2p-home .news-tile {
+        margin-bottom: 5%;
+    }
+    .f2p-home .news-tile:first-child {
+        margin-right: 2vw;
+    }
+    .f2p-home .news-tile:last-child {
+        margin-left: 2vw;
+    }
+    .f2p-home .news-tile .news-tile-inner .label-wrap {
+        border-top: 0.15vw solid #0db2ff;
+        padding: 2.25% 0 2.25%;
+    }
+    .f2p-home .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3 {
+        font-size: 1.75vw;
+        line-height: 1.15;
+        margin-bottom: 0;
+    }
+    .f2p-home .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3.single {
+        line-height: 2.3;
+    }
+    .f2p-home .news-tile.grey .news-tile-inner .label-wrap {
+        border-top: 0.15vw solid #cbcbcb;
+    }
+    .f2p-home .keyart.mobile {
+        display: none;
+    }
+    .f2p-home .parallax-wrapper {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        -webkit-perspective: 10000px;
+        perspective: 10000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #000;
+        padding-top: 55%;
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds {
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img {
+        display: block;
+        width: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: rgba(255, 255, 255, 0.01);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img:not(:first-child) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img:first-child {
+        -webkit-transform: translateZ(15px);
+        -ms-transform: translateZ(15px);
+        transform: translateZ(15px);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img:nth-child(2) {
+        -webkit-transform: translateZ(35px);
+        -ms-transform: translateZ(35px);
+        transform: translateZ(35px);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img:nth-child(3) {
+        -webkit-transform: translateZ(100px);
+        -ms-transform: translateZ(100px);
+        transform: translateZ(100px);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img:nth-child(4) {
+        -webkit-transform: translateZ(175px);
+        -ms-transform: translateZ(175px);
+        transform: translateZ(175px);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds img:nth-child(5) {
+        -webkit-transform: translateZ(250px);
+        -ms-transform: translateZ(250px);
+        transform: translateZ(250px);
+    }
+    .f2p-home .parallax-wrapper .parallax-backgrounds.is-absolute {
+        position: absolute;
+    }
+    .f2p-home .parallax-wrapper .no-preserve-3d .parallax-backgrounds {
+        position: relative;
+    }
+    .f2p-home .parallax-wrapper figure {
+        margin: 0;
+    }
+    .f2p-home .parallax-wrapper .keyart {
+        padding-bottom: 10%;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 90%;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container .featured-tiles-wrap .news-tile.blue .news-tile-inner .label-wrap {
+        border-top: 0.15vw solid #0db2ff;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container .featured-tiles-wrap .news-tile.orange .news-tile-inner .label-wrap {
+        border-top: 0.15vw solid #ff8a0c;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 2.75%;
+        max-width: 87.5%;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .cell {
+        padding-right: 0.75vw;
+        padding-left: 0.75vw;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .cell .news-tile {
+        filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.5));
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .cell .news-tile:first-child {
+        margin-right: 0;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .cell .news-tile:last-child {
+        margin-left: 0;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .cell .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3 {
+        font-size: 1.35vw;
+        line-height: 1.15;
+        //line-height: 2.3;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .slider-tiles-wrap .cell .news-tile .news-tile-inner .label-wrap .label-wrap-inner h3.single {
+        line-height: 2.3;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .buttons-wrap .learn-button-wrap a .learn-button {
+        background: url('https://rocketleague.media.zestyio.com/Button.png') no-repeat center center;
+        background-size: contain;
+        margin: 10% 0 20%;
+    }
+    .f2p-home .parallax-wrapper .keyart .keyart-inner .grid-container.news-slider-wrap .buttons-wrap .learn-button-wrap a .learn-button .learn-button-inner span {
+        font-family: BourgeoisUltra, "Arial Regular", Arial, sans-serif;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.5vw;
+        line-height: 2.95;
+        position: relative;
+        bottom: 2.5px;
+    }
+    .f2p-home .learn-more {
+        background: var(--learnmore_bg_desktop);
+        background-size: 100% 100%;
+        padding: 5.85% 0;
+        animation: changeBg 750s infinite;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container {
+        max-width: 100%;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 1.75%;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy p {
+        margin-bottom: 2.5%;
+    }
+    .f2p-home .learn-more .learn-more-inner .grid-container .copy-wrap .copy p:last-child {
+        margin-bottom: 0;
+    }
+    .f2p-home .cross-platform {
+        background: #000 url('https://rocketleague.media.zestyio.com/rl_home_f2p-launch_cross_10656.jpg?optimize=high') no-repeat center center;
+        background-size: 100%;
+        transition: background-position 0.75s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    }
+    .f2p-home .cross-platform .cross-platform-inner {
+        padding-bottom: 0;
+    }
+    .f2p-home .cross-platform .cross-platform-inner img.square {
+        display: none;
+    }
+    .f2p-home .cross-platform .cross-platform-inner img.wide {
+        display: none;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap {
+        background: none transparent;
+        margin-top: 0;
+        position: relative;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner {
+        background: var(--section_1_d_bg_wrap);
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+        margin-left: 0;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container {
+        background: url('https://rocketleague.media.zestyio.com/SunriseFlyout.png') no-repeat center center;
+        border-top: none;
+        border-right: 0.35vw;
+        border-right-style: solid;
+        border-right-color: var(--section_1_border);
+        padding: 47.5% 0 0;
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .learn-button {
+        margin: 12% 0 0;
+    }
+    .f2p-home .cross-platform .cross-platform-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .learn-button .learn-button-inner span {
+        font-size: 1.5vw;
+    }
+    .f2p-home .events {
+        background: #000 url('https://rocketleague.media.zestyio.com/rl_home_f2p-launch_event_10983.jpg?optimize=high') no-repeat center center;
+        background-size: 100%;
+        transition: background-position 0.75s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    }
+    .f2p-home .events .events-inner {
+        padding-bottom: 0;
+    }
+    .f2p-home .events .events-inner img.square {
+        display: none;
+    }
+    .f2p-home .events .events-inner img.wide {
+        display: none;
+    }
+    .f2p-home .events .events-inner .grid-wrap {
+        background: none transparent;
+        margin-top: 0;
+        position: relative;
+    }
+    .f2p-home .events .events-inner .grid-wrap .grid-wrap-inner {
+        background: var(--section_2_d_bg_wrap);
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+        margin-left: 66.75vw;
+    }
+    .f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container {
+        background: url('https://rocketleague.media.zestyio.com/NightFlyout.png') no-repeat center center;
+        border-top: none;
+        border-left: 0.35vw;
+        border-left-style: solid;
+        border-left-color: var(--section_2_border);
+        padding: 47.5% 0 0;
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+    }
+    .f2p-home .events .events-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .shop-blueprints {
+        background: #000 url('https://rocketleague.media.zestyio.com/rl_home_f2p-launch_shop_10367.jpg?optimize=high') no-repeat center center;
+        background-size: 100%;
+        transition: background-position 0.75s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner {
+        padding-bottom: 0;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner img.square {
+        display: none;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner img.wide {
+        display: none;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap {
+        background: none transparent;
+        margin-top: 0;
+        position: relative;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner {
+        background: var(--section_3_d_bg_wrap);
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+        margin-left: 0;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container {
+        background: url('https://rocketleague.media.zestyio.com/SunriseFlyout.png') no-repeat center center;
+        border-top: none;
+        border-right: 0.35vw;
+        border-right-style: solid;
+        border-right-color: var(--section_3_border);
+        padding: 47.5% 0 0;
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+        margin-left: 0;
+    }
+    .f2p-home .shop-blueprints .shop-blueprints-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .music {
+        background: #000 url('https://rocketleague.media.zestyio.com/rl_home_f2p-launch_music_10852.jpg?optimize=high') no-repeat center center;
+        background-size: 100%;
+        transition: background-position 0.75s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    }
+    .f2p-home .music .music-inner {
+        padding-bottom: 0;
+    }
+    .f2p-home .music .music-inner img.square {
+        display: none;
+    }
+    .f2p-home .music .music-inner img.wide {
+        display: none;
+    }
+    .f2p-home .music .music-inner .grid-wrap {
+        background: none transparent;
+        margin-top: 0;
+        position: relative;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner {
+        background: var(--section_4_d_bg_wrap);
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+        margin-left: 66.75vw;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container {
+        background: url('https://rocketleague.media.zestyio.com/NightFlyout.png') no-repeat center center;
+        border-top: none;
+        border-left: 0.35vw;
+        border-left-style: solid;
+        border-left-color: var(--section_4_border);
+        padding: 47.5% 0 0;
+        max-width: 33.25vw;
+        min-height: 44.95vw;
+        width: 100%;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy {
+        color: #fff;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .copy-wrap .copy h2 {
+        margin-bottom: 2.35%;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button {
+        margin: 12% 0 0;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button img {
+        height: 5.5vw;
+        width: 5.5vw;
+        margin-left: -8.5vw;
+        margin-top: 0;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner {
+        line-height: 1.2;
+    }
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner span {
+        font-size: 1.5vw;
+        position: relative;
+        bottom: 6.5px;
+    }
+}
+@media screen and (min-width:1380px) {
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner span {
+        bottom: 12.5px;
+    }
+}
+@media screen and (min-width:1920px) {
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner span {
+        bottom: 15.5px;
+    }
+}
+@media screen and (min-width:1920px) {
+    .f2p-home .music .music-inner .grid-wrap .grid-wrap-inner .grid-container .button-wrap .cell a .music-button .music-button-inner span {
+        bottom: 22.5px;
+    }
+}

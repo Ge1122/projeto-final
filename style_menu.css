@@ -1,0 +1,66 @@
+
+body,html{
+    height: 100vh;
+     margin: 0;
+     overflow: hidden;
+ }
+ .bg{
+     position: relative;
+     background-image: url(imagens/estadio.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .instruções{
+     position: absolute;
+     z-index: 1;
+     font-size: large;
+     left: 40%;
+     top: 70%;
+     color: rgb(252, 252, 252);
+     border: solid 1px white;
+     
+ }
+ .setinha{
+     position: relative;
+     left: 50%;
+ }
+ .titulo{
+     height: 150px;
+     margin-left: 480px ;  
+ }
+ .ball{
+     position: relative;
+     bottom: 150px;
+     left: -20px;
+ }
+ .octane{
+     position: relative;
+     bottom: 40cm;
+     left: 2px;
+ }
+ .honda{
+     position: relative;
+     bottom: 79cm;
+     right: -780px;
+ }
+ .insta{
+     position: relative;
+     left:45%;
+     height: 70px;
+     width: 70px;
+ 
+ }
+ .git{
+     position: relative;
+     height: 70px;
+     width: 70px;
+     left: 45%;
+ }
+ .pe{
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+    left:40%;
+ }
+ 
+ 
